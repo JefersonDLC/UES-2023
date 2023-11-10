@@ -1,0 +1,52 @@
+/*estilo de la pagina principlas "inicio"*/
+
+body{
+	background-image: url("op.jpg");
+	background-size:  cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.titulos{
+	font-family: fantasy;
+	color: grey;
+}
+	
+
+.parrafos{
+	color: black;
+	font-family: fantasy;
+	text-align: justify;
+
+}
+.TextFooter{
+	color: #660066;
+	font-family: fantasy;
+}
+ul{
+	list-style: none;
+	font-family: fantasy;
+	text-decoration: none;
+}
+
+li::before{
+	content: '';
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image: url("icon.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-right: 5px;
+}
+
+
+/*imagenes que acompanhan la informacion de cada apartado*/
+
+.imagenesBlog{
+	width: 250px;
+	height: auto;
+	margin-left: 500px;
+
+}
+

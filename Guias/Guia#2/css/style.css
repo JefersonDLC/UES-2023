@@ -1,0 +1,25 @@
+body {
+  background-image: url(img.jpg);
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-style: fantasy;
+}
+.parrafosFont{
+  font-family: fantasy;
+}
+
+section {
+  font-family: Helvetica, Arial, fantasy;
+  font-size: 12pt;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+}
